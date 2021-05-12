@@ -24,6 +24,13 @@ Next.js is a wrapper around react framework which enables your react code to pre
 - `pages` directory is the heart of the application.
 - Content/files with-in `styles` directory can be moved to `pages` folder. And get rid of the `styles` folder.
 - You must have 2 folders, `public` for static assets and `pages` folder for source code. `pages` folder can be moved to `src` folder.
+- Folder helps in dynamic routing as well.
+- `api` folder inside `pages` : files inside shouldn't export react component.
+- Files inside `api` is REST API endpoint, should return json.
+
+### Organizing files
+
+- Create individual folder for every page inside `pages` directory and inside every page folder, add an `index.tsx` file.
 
 ## Pages
 
